@@ -1,68 +1,36 @@
-# Aula 07 - Atividade Pratica: Frameworks CSS
+# Aula 07 - Atividades Praticas: Frameworks CSS
 
-## Atividade Realizada
+Este repositorio contem as duas atividades praticas da Aula 07.
 
-Estudo pratico e comparacao de frameworks CSS modernos atraves de exemplos de codigo.
+## Atividades
 
-## O que foi feito
+### Atividade 01 - Box Model e Flexbox
+- Projeto com `index.html` e `style.css`
+- 20 elementos com propriedades de Content, Padding, Border e Margin
+- 20 propriedades Flexbox para organizacao responsiva
+- Local: `atividade-01/`
 
-- Criacao de exemplos com **Tailwind CSS** (classes utilitarias)
-- Criacao de exemplos com **Bootstrap 5** (componentes prontos)
-- Criacao de exemplos com **Bulma** (framework flexbox)
-- Demonstrativo de **CSS Modules** (escopo local)
-- Demonstrativo de **Styled Components** (CSS-in-JS)
-- Aplicacao de metodologia **BEM** na nomenclatura
-- Estrutura de arquivos organizada por componente
+### Atividade 02 - Tailwind CSS
+- Projeto com 30+ classes diferentes do Tailwind
+- Classes para cores, tipografia, espacamentos, dimensoes, bordas, posicionamento, flexbox, grid e responsividade
+- Documentacao com lista de classes e funcoes
+- Local: `atividade-02/`
 
-## Tecnologias Testadas
-
-| Framework | Tipo | Status |
-|-----------|------|--------|
-| Tailwind CSS | Utilitario | Testado |
-| Bootstrap 5 | Componentes | Testado |
-| Bulma | Componentes | Testado |
-| CSS Modules | Escopo local | Testado |
-| Styled Components | CSS-in-JS | Testado |
-
-## Estrutura de Exemplo Criada
+## Estrutura
 
 ```
-src/
-├── styles/
-│   ├── variables.css      # Custom properties (design tokens)
-│   ├── reset.css          # Normalize/reset
-│   └── globals.css        # Estilos globais
-├── components/
-│   ├── Button/
-│   │   ├── Button.jsx
-│   │   ├── Button.module.css    # CSS Modules
-│   │   └── Button.styled.js     # Styled Components
-│   ├── Card/
-│   │   ├── Card.jsx
-│   │   └── Card.module.css
-│   └── Navbar/
-│       ├── Navbar.jsx
-│       └── Navbar.module.css
-└── tailwind-examples/
-    ├── buttons.html
-    ├── cards.html
-    └── grid.html
+frameworks_css/
+├── README.md
+├── atividade-01/
+│   ├── index.html
+│   └── style.css
+└── atividade-02/
+    ├── index.html
+    └── README.md
 ```
-
-## Conceitos Aplicados
-
-- Mobile-first responsivo
-- Design tokens com variaveis CSS
-- Nomenclatura BEM consistente
-- Escopo local com CSS Modules
-- Componentes estilizados com Styled Components
-- Classes utilitarias Tailwind
-- Componentes Bootstrap/Bulma
 
 ## Referencias
 
 - Tailwind: https://tailwindcss.com/docs
-- Bootstrap: https://getbootstrap.com/docs
-- Bulma: https://bulma.io/documentation
-- BEM: https://getbem.com
-- CSS Modules: https://github.com/css-modules/css-modules
+- CSS Tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- MDN: https://developer.mozilla.org/en-US/docs/Web/CSS
